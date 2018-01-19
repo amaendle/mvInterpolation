@@ -1,10 +1,8 @@
-#' Generate R documentation from inline comments.
+#' Multivariate interpolation
 #'
-#' Roxygen2 allows you to write documentation in comment blocks co-located
-#' with code.
+#' This package provides a multivariate extension of the interpolation techniques presented in the paper by Shepard (1968).
 #'
-#' The only function Otherwise refer to the vignettes to see
-#' how to format the documentation.
+#' The main function to prform multivariate interpolation using the package \pkg{mvInterpolate} is \code{\link{wintpl}}.
 #'
 #' @author Andreas Mändle, \email{maendle@@uni-bremen.de}
 #' @references Shepard, Donald (1968). "A two-dimensional interpolation function for irregularly-spaced data". Proceedings of the 1968 ACM National Conference. pp. 517–524. doi:10.1145/800186.810616.
