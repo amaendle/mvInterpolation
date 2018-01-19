@@ -1,7 +1,7 @@
 Package: mvInterpolation
 Title: Performs interpolation in multidimensional settings
 Version: 0.0.0.9000
-Authors@R: person("Andreas", "Mändle", email = "maendle@uni-bremen.de", role = c("aut", "cre"))
+Authors@R: person("Andreas", "Maendle", email = "maendle@uni-bremen.de", role = c("aut", "cre"))
 Description: This package implements multivariate extensions of the interpolation algorithms 
 	from Shepard, Donald (1968): "A two-dimensional interpolation function for 
 	irregularly-spaced data". Proceedings of the 1968 ACM National Conference. pp. 517–524. 

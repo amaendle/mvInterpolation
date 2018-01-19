@@ -4,10 +4,10 @@
 \alias{getR}
 \title{Get initial search-radius}
 \usage{
-getR(dat, d)
+getR(data, d = NULL)
 }
 \arguments{
-\item{dat}{A matrix of the points for which the function is known}
+\item{data}{A matrix of the points for which the function is known}
 
 \item{d}{Dimension of the coordinate space}
 }
@@ -17,4 +17,8 @@ The radius as a  numeric
 \description{
 This function determines a search radius such that on average 7 points lie
 within the ball with the radius.
+}
+\examples{
+coords <- matrix(runif(10*4)*10, ncol=4)
+getR(coords)
 }
